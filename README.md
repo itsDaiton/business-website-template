@@ -4,7 +4,7 @@ Modern responsive business website design made with React and Tailwind CSS.
 
 ⚠️ **All names, information and assets used are fake and do not represent a real componany.** ⚠️
 
-Live demo can be found under this [link](https://business-website-template.onrender.com/).
+Live demo can be found under this [**link**](https://business-website-template.onrender.com/).
 
 ## Layout
 - Header
