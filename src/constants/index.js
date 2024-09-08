@@ -22,11 +22,11 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "Who we are",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Materials",
   },
   {
     id: "clients",
@@ -38,9 +38,9 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Inspirational",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Need ideas? For someone or for yourself, find the inspiration you need in our catalogue.",
   },
   {
     id: "feature-2",
@@ -88,18 +88,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Customers Served",
+    value: "100+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Premade Models",
+    value: "20+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Days to Ship",
+    value: "5",
   },
 ];
 

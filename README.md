@@ -13,7 +13,7 @@ Live demo can be found under this [**link**](https://business-website-template.o
 - Header
 - Hero section
 - Features section
-- Billing section
+- Materials section
 - Product showcase section
 - Testimonials section
 - Clients section

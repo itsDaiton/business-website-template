@@ -34,6 +34,38 @@
   text-fill-color: transparent;
 }
 
+.text-gradient-yellow {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #fafac7 0.89%,
+    #f8fad9 17.23%,
+    #f6fab4 42.04%,
+    #eaf79d 55.12%,
+    #dff484 71.54%,
+    #d7ec35 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.text-gradient-pink {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #f9c4f8 0.89%,
+    #f4d5fc 17.23%,
+    #ebc1fe 42.04%,
+    #f7adf8 55.12%,
+    #ed71f1 71.54%,
+    #ec2df0 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -50,8 +82,8 @@
   background: linear-gradient(
     144.39deg,
     #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    #a0a0a0 -78.47%,
+    #252245 91.61%
   );
 }
 
@@ -59,7 +91,7 @@
   background: linear-gradient(
     -168.39deg,
     #ffffff -278.56%,
-    #6d6d6d -78.47%,
+    #ababab -78.47%,
     #11101d 91.61%
   );
 }
@@ -110,6 +142,7 @@
 .feature-card:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
+  transition: background-color 0.8s ease;
 }
 
 .feedback-container .feedback-card:last-child {
@@ -122,6 +155,7 @@
 
 .feedback-card:hover {
   background: var(--black-gradient);
+  transition: background-color 0.8s ease;
 }
 
 .blue__gradient {
@@ -130,11 +164,53 @@
 }
 
 .pink__gradient {
-  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
-  filter: blur(200px);
+  background: linear-gradient(180deg, #ffbd08 0%, #3823ef 100%);
+  filter: blur(150px);
 }
 
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(300px);
+}
+
+
+/* Modern table style */
+table {
+  font-family: 'Poppins';
+  font-weight: bold;
+  width: 100%;
+  margin: 15pt;
+  border-collapse: collapse;
+  background-color: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 24px 0px;
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: 1000;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+tr:hover {
+  background-color: #252525;
+  transition: background-color 0.8s ease;
+}
+
+td {
+  border-bottom: 1px solid #474747;
+  color: #fefefe;
+}
+
+tr:last-child td {
+  margin: 0 auto;
+  border-bottom: none;
 }
