@@ -187,8 +187,8 @@ table {
 }
 
 th, td {
-  padding: 24px 0px;
-  text-align: center;
+  padding: 24px 10px;
+  text-align: left;
 }
 
 th {
