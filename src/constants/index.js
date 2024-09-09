@@ -4,15 +4,15 @@ import {
   people03, 
   facebook, 
   instagram, 
-  linkedin, 
+  linkedin,
   twitter, 
   airbnb, 
   binance, 
   coinbase, 
   dropbox, 
-  send, 
-  shield, 
-  star
+  eco, 
+  speed, 
+  gear
 } from "../assets";
 
 export const navLinks = [
@@ -37,24 +37,24 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Inspirational",
+    icon: gear,
+    title: "Tailored Customization",
     content:
-      "Need ideas? For someone or for yourself, find the inspiration you need in our catalogue.",
+      " We create unique, client-specific products that are as functional as they are innovative.",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: speed,
+    title: "Speedy Prototyping",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Accelerate your design process with our rapid prototyping services. We deliver high-quality prototypes quickly, helping you reduce time to market and stay ahead of the competition.",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: eco,
+    title: "Eco-Friendly Production",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Commit to sustainability with our environmentally conscious 3D printing. We minimize waste and use recyclable materials, ensuring that your projects are both cutting-edge and eco-friendly.",
   },
 ];
 

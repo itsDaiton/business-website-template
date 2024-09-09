@@ -1,5 +1,4 @@
 import React from "react";
-import { materials } from "../assets";
 import styles, { layout } from "../style";
 
 const Materials = () => {

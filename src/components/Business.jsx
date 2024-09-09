@@ -1,7 +1,6 @@
 import React from "react";
 import { features } from "../constants";
 import styles, { layout } from "../style";
-import Button from "./Button";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
@@ -10,7 +9,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
     } feature-card`}
   >
     <div
-      className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
+      className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimYellow`}
     >
       <img src={icon} alt="icon" className="w-[50%] h-[50%] object-contain" />
     </div>

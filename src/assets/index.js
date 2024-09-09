@@ -1,21 +1,20 @@
 import airbnb from "./airbnb.png";
-import materials from "./materials.png";
 import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
-import send from "./Send.svg";
-import shield from "./Shield.svg";
-import star from "./Star.svg";
+import dragon from "./dragon-img.png";
+import eco from "./eco.png";
+import speed from "./speed.png";
+import gear from "./gear.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.svg";
 import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
-import discount from "./Discount.svg";
+import discount from "./discount-img.svg";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
@@ -26,17 +25,16 @@ import people03 from "./people03.png";
 
 export {
   airbnb,
-  materials,
   binance,
   card,
   coinbase,
   dropbox,
   logo,
   quotes,
-  robot,
-  send,
-  shield,
-  star,
+  dragon,
+  eco,
+  speed,
+  gear,
   menu,
   close,
   google,
