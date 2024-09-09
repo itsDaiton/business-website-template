@@ -1,5 +1,6 @@
 import React from "react";
 import styles, { layout } from "../style";
+import { discount } from "../assets";
 
 const Materials = () => {
   return (
@@ -16,25 +17,25 @@ const Materials = () => {
             <td>PLA</td>
             <td>2/5</td>
             <td>4/5</td>
-            <td>2.50€/h</td>
+            <td><s class="small-text">3.00€/h</s><br></br>2.50€/h</td>
           </tr>
           <tr>
             <td>PETG</td>
             <td>3/5</td>
             <td>4/5</td>
-            <td>2.50€/h</td>
+            <td><s class="small-text">3.00€/h</s><br></br>2.50€/h</td>
           </tr>
           <tr>
             <td>TPU</td>
             <td>1/5</td>
             <td>2/5</td>
-            <td>3.50€/h</td>
+            <td><s class="small-text">4.00€/h</s><br></br>3.50€/h</td>
           </tr>
           <tr>
             <td>ABS</td>
             <td>2/5</td>
             <td>1/5</td>
-            <td>3.50€/h</td>
+            <td><s class="small-text">4.00€/h</s><br></br>3.50€/h</td>
           </tr>
         </table>
         <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -43,7 +44,7 @@ const Materials = () => {
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           Choose your <br className="sm:block hidden" />{" "}
-          <span className="text-gradient-pink">Materials</span>.
+          <span className="text-gradient-yellow">Materials</span>.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Experience seamless and customized 3D printing solutions with our

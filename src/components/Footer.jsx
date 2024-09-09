@@ -14,7 +14,7 @@ const Footer = () => {
             className="w-[266px] h-[172px] object-contain"
           />
           <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
-            A new way to make the payments easy, reliable and secure.
+            A new way to print 3D models. Your way.
           </p>
         </div>
         <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">

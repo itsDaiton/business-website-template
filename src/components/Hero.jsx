@@ -28,7 +28,7 @@ const Hero = () => {
           </h1>
         </div>
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">
-          to <span className="text-gradient-yellow">life</span>.
+          to <span className="text-gradient-yellow">Life</span>.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           <i>

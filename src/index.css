@@ -21,12 +21,12 @@
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
+    #faf9de 0.89%,
+    #f5f5be 17.23%,
+    #e5f09d 42.04%,
+    #f7f799 55.12%,
+    #d5f074 71.54%,
+    #b8cf33 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -43,22 +43,6 @@
     #eaf79d 55.12%,
     #dff484 71.54%,
     #d7ec35 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-}
-
-.text-gradient-pink {
-  background: radial-gradient(
-    64.18% 64.18% at 71.16% 35.69%,
-    #f9c4f8 0.89%,
-    #f4d5fc 17.23%,
-    #ebc1fe 42.04%,
-    #f7adf8 55.12%,
-    #ed71f1 71.54%,
-    #ec2df0 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -90,9 +74,9 @@
 .bg-black-gradient-2 {
   background: linear-gradient(
     -168.39deg,
-    #ffffff -278.56%,
-    #ababab -78.47%,
-    #11101d 91.61%
+    #171240 -278.56%,
+    #292982 -78.47%,
+    #221c6b 91.61%
   );
 }
 
@@ -117,28 +101,6 @@
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-@-webkit-keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(100px);
-    transform: translateY(100px);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-
-@keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(100px);
-    transform: translateY(100px);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-
 .feature-card:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
@@ -160,7 +122,7 @@
 }
 
 .blue__gradient {
-  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #4f81b0 100%);
   filter: blur(100px);
 }
 
@@ -227,4 +189,63 @@ tr:last-child td {
   opacity: 1; /* Restores full opacity on hover */
   filter: drop-shadow(0 0 45px rgb(35, 35, 35)); /* Enhances the shadow on hover */
   transform: perspective(1000px) rotateY(1deg) rotateX(-1deg); /* Rotates the image slightly in 3D */
+}
+
+.printer-container {
+  position: relative;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.printer-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  mask-image: radial-gradient(circle, rgb(202, 202, 202) 40%, transparent 98%);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2),
+              0px 0px 15px rgba(19, 112, 166, 0.5);
+}
+
+.small-text {
+  font-size: 10pt;
+  padding-right: 10pt;
+} 
+
+s, strike{text-decoration:none;position:relative;}
+s::before, strike::before {
+    top: 50%; /*tweak this to adjust the vertical position if it's off a bit due to your font family */
+    background:red; /*this is the color of the line*/
+    opacity:.6;
+    content: '';
+    width: 100%;
+    position: absolute;
+    height:.1em;
+    left: -10%;
+    white-space:nowrap;
+    display: block;
+    transform: rotate(-15deg);  
+}
+s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;width:102%;}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 }

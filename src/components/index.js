@@ -1,6 +1,6 @@
 import Materials from "./Materials";
 import Business from "./Business";
-import CardDeal from "./CardDeal";
+import Equipment from "./Equipment";
 import Clients from "./Clients";
 import CTA from "./CTA";
 import Feedback from "./Feedback";
@@ -13,7 +13,7 @@ import Testimonials from "./Testimonials";
 export {
   Materials,
   Business,
-  CardDeal,
+  Equipment,
   Clients,
   CTA,
   Feedback,
