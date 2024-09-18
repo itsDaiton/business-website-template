@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.logo {
+  filter: invert(1);
+}
+
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
