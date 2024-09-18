@@ -3,9 +3,7 @@ import styles from "../styles/style";
 
 const CookiePolicy = () => {
   return (
-    <section
-      className={`${styles.flexLeft} flex-row flex-wrap sm:mb-20 mb-6`}
-    >
+    <section className={`${styles.flexLeft} flex-row flex-wrap sm:mb-20 mb-6`}>
       <h2 className={styles.heading2}>Cookie Policy</h2>
       <p className={`${styles.paragraph}`}>
         This website uses cookies to provide a better user experience to its
@@ -156,35 +154,46 @@ const CookiePolicy = () => {
       <ul>
         <li className={`${styles.paragraph}`}>
           - Lisbon Consumer Dispute Arbitration Center:
-          http://www.centroarbitragemlisboa.pt
+          <a href="http://www.centroarbitragemlisboa.pt">
+            http://www.centroarbitragemlisboa.pt
+          </a>
         </li>
         <li className={`${styles.paragraph}`}>
           - Vale do Ave/Arbitration Court Consumer Dispute Arbitration Center:
+          <a href=""></a>
           http://www.triave.pt
         </li>
         <li className={`${styles.paragraph}`}>
           - CIAB - Center for Information, Mediation, and Arbitration of
-          Consumer Disputes (Consumer Arbitration Court): http://www.ciab.pt/pt
+          Consumer Disputes (Consumer Arbitration Court):{" "}
+          <a href="http://www.ciab.pt/pt">http://www.ciab.pt/pt</a>
         </li>
         <li className={`${styles.paragraph}`}>
           - CNIACC - National Center for Information and Arbitration of Consumer
-          Disputes: https://www.cniacc.pt/pt/
+          Disputes:{" "}
+          <a href="https://www.cniacc.pt/pt/">https://www.cniacc.pt/pt/</a>
         </li>
         <li className={`${styles.paragraph}`}>
           - Coimbra District Consumer Dispute Arbitration Center:
-          http://www.centrodearbitragemdecoimbra.com
+          <a href="http://www.centrodearbitragemdecoimbra.com">
+            http://www.centrodearbitragemdecoimbra.com
+          </a>
         </li>
         <li className={`${styles.paragraph}`}>
           - Algarve Consumer Information, Mediation, and Arbitration Center:
-          http://www.consumoalgarve.pt
+          <a href="http://www.consumoalgarve.pt">
+            http://www.consumoalgarve.pt
+          </a>
         </li>
         <li className={`${styles.paragraph}`}>
           - Porto Consumer Information and Arbitration Center:
-          http://www.cicap.pt
+          <a href="http://www.cicap.pt">http://www.cicap.pt</a>
         </li>
         <li className={`${styles.paragraph}`}>
           - Madeira Consumer Dispute Arbitration Center:
-          https://www.madeira.gov.pt/cacc
+          <a href="https://www.madeira.gov.pt/cacc">
+            https://www.madeira.gov.pt/cacc
+          </a>
         </li>
       </ul>
       <p className={`${styles.paragraph}`}>
@@ -194,7 +203,10 @@ const CookiePolicy = () => {
       <h2 className={styles.heading2}>Complaint Book</h2>
 
       <p className={`${styles.paragraph}`}>
-        https://www.livroreclamacoes.pt/inicio
+        <a href="https://www.livroreclamacoes.pt/inicio">
+          {" "}
+          https://www.livroreclamacoes.pt/inicio
+        </a>
       </p>
     </section>
   );
