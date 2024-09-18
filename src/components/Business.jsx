@@ -1,6 +1,6 @@
 import React from "react";
 import { features } from "../constants";
-import styles, { layout } from "../style";
+import styles, { layout } from "../styles/style";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div

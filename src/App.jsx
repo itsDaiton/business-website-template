@@ -11,7 +11,7 @@ import {
   Stats,
   Testimonials,
 } from "./components";
-import styles from "./style";
+import styles from "./styles/style";
 
 const App = () => {
   return (

@@ -1,13 +1,4 @@
-import {
-  peoplerandom,
-  facebook, 
-  instagram, 
-  linkedin,
-  twitter, 
-  eco, 
-  speed, 
-  gear
-} from "../assets";
+import { peoplerandom, instagram, eco, speed, gear } from "../assets";
 
 export const navLinks = [
   {

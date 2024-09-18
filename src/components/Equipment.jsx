@@ -1,6 +1,6 @@
 import React from "react";
 import { printer } from "../assets";
-import styles, { layout } from "../style";
+import styles, { layout } from "../styles/style";
 
 const Equipment = () => {
   return (

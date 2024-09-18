@@ -1,4 +1,4 @@
-import styles from "../style";
+import styles from "../styles/style";
 import { discount, dragon } from "../assets";
 import GetStarted from "./GetStarted";
 

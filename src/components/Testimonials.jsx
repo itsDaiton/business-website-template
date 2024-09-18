@@ -1,6 +1,6 @@
 import React from "react";
 import { feedback } from "../constants";
-import styles from "../style";
+import styles from "../styles/style";
 import Feedback from "./Feedback";
 
 const Testimonials = () => {

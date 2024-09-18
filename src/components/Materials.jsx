@@ -1,5 +1,5 @@
 import React from "react";
-import styles, { layout } from "../style";
+import styles, { layout } from "../styles/style";
 import { discount } from "../assets";
 
 const Materials = () => {

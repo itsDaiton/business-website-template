@@ -1,6 +1,6 @@
 import React from "react";
 import { clients } from "../constants";
-import styles from "../style";
+import styles from "../styles/style";
 
 const Clients = () => {
   return (
