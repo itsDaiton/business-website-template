@@ -136,24 +136,6 @@
   filter: blur(300px);
 }
 
-.dragon-style {
-  opacity: 0.8; /* Reduces the opacity to 80% */
-  filter: drop-shadow(
-    0 0 20px rgba(32, 32, 32, 0.8)
-  ); /* Adds a dark shadow around the edges */
-  transition: opacity 0.3s ease-in-out, filter 0.3s ease-in-out,
-    transform 0.3s ease-in-out;
-  transform: perspective(1000px) rotateY(0deg) rotateX(0deg); /* Initial state */
-}
-
-.dragon-style:hover {
-  opacity: 1; /* Restores full opacity on hover */
-  filter: drop-shadow(
-    0 0 45px rgb(35, 35, 35)
-  ); /* Enhances the shadow on hover */
-  transform: perspective(1000px) rotateY(1deg) rotateX(-1deg); /* Rotates the image slightly in 3D */
-}
-
 .printer-container {
   position: relative;
   width: auto;
