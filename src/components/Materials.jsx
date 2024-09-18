@@ -44,7 +44,7 @@ const Materials = () => {
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           Choose your <br className="sm:block hidden" />{" "}
-          <span className="text-gradient-yellow">Materials</span>.
+          <span className="text-gradient">Materials</span>.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Experience seamless and customized 3D printing solutions with our
