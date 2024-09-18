@@ -83,7 +83,7 @@ export const stats = [
   },
   {
     id: "stats-3",
-    title: "Days to Ship",
+    title: "Day Shipping",
     value: "5",
   },
 ];
