@@ -1,0 +1,27 @@
+s,
+strike {
+  text-decoration: none;
+  position: relative;
+}
+
+s::before,
+strike::before {
+  top: 50%; /*tweak this to adjust the vertical position if it's off a bit due to your font family */
+  background: red; /*this is the color of the line*/
+  opacity: 0.6;
+  content: "";
+  width: 100%;
+  position: absolute;
+  height: 0.1em;
+  left: -10%;
+  white-space: nowrap;
+  display: block;
+  transform: rotate(-15deg);
+}
+
+s.straight::before,
+strike.straight::before {
+  transform: rotate(0deg);
+  left: -1%;
+  width: 102%;
+}

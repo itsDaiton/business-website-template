@@ -136,58 +136,21 @@
   filter: blur(300px);
 }
 
-
-/* Modern table style */
-table {
-  font-family: 'Poppins';
-  font-weight: bold;
-  width: 100%;
-  margin: 15pt;
-  border-collapse: collapse;
-  background-color: transparent;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-th, td {
-  padding: 24px 10px;
-  text-align: left;
-}
-
-th {
-  background-color: #f4f4f4;
-  font-weight: 1000;
-  color: #ffffff;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  border-bottom: 2px solid #e0e0e0;
-}
-
-tr:hover {
-  background-color: #252525;
-  transition: background-color 0.8s ease;
-}
-
-td {
-  border-bottom: 1px solid #474747;
-  color: #fefefe;
-}
-
-tr:last-child td {
-  margin: 0 auto;
-  border-bottom: none;
-}
-
 .dragon-style {
   opacity: 0.8; /* Reduces the opacity to 80% */
-  filter: drop-shadow(0 0 20px rgba(32, 32, 32, 0.8)); /* Adds a dark shadow around the edges */
-  transition: opacity 0.3s ease-in-out, filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+  filter: drop-shadow(
+    0 0 20px rgba(32, 32, 32, 0.8)
+  ); /* Adds a dark shadow around the edges */
+  transition: opacity 0.3s ease-in-out, filter 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
   transform: perspective(1000px) rotateY(0deg) rotateX(0deg); /* Initial state */
-} 
+}
 
 .dragon-style:hover {
   opacity: 1; /* Restores full opacity on hover */
-  filter: drop-shadow(0 0 45px rgb(35, 35, 35)); /* Enhances the shadow on hover */
+  filter: drop-shadow(
+    0 0 45px rgb(35, 35, 35)
+  ); /* Enhances the shadow on hover */
   transform: perspective(1000px) rotateY(1deg) rotateX(-1deg); /* Rotates the image slightly in 3D */
 }
 
@@ -204,29 +167,13 @@ tr:last-child td {
   border-radius: 20px;
   mask-image: radial-gradient(circle, rgb(202, 202, 202) 40%, transparent 98%);
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2),
-              0px 0px 15px rgba(19, 112, 166, 0.5);
+    0px 0px 15px rgba(19, 112, 166, 0.5);
 }
 
 .small-text {
   font-size: 10pt;
   padding-right: 10pt;
-} 
-
-s, strike{text-decoration:none;position:relative;}
-s::before, strike::before {
-    top: 50%; /*tweak this to adjust the vertical position if it's off a bit due to your font family */
-    background:red; /*this is the color of the line*/
-    opacity:.6;
-    content: '';
-    width: 100%;
-    position: absolute;
-    height:.1em;
-    left: -10%;
-    white-space:nowrap;
-    display: block;
-    transform: rotate(-15deg);  
 }
-s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;width:102%;}
 
 @-webkit-keyframes slide-top {
   0% {

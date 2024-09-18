@@ -1,0 +1,41 @@
+/* Modern table style */
+table {
+  font-family: "Poppins";
+  font-weight: bold;
+  width: 100%;
+  margin: 15pt;
+  border-collapse: collapse;
+  background-color: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 24px 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: 1000;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+tr:hover {
+  background-color: #252525;
+  transition: background-color 0.8s ease;
+}
+
+td {
+  border-bottom: 1px solid #474747;
+  color: #fefefe;
+}
+
+tr:last-child td {
+  margin: 0 auto;
+  border-bottom: none;
+}
