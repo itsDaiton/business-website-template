@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "#00040f",
-        secondary: "#00f6ff",
+        secondary: "#ffaa00",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
         dimYellow: "rgba(228, 246, 246, 0.1)"
@@ -21,7 +21,7 @@ module.exports = {
       sm: "768px",
       md: "1060px",
       lg: "1200px",
-      xl: "1700px",
+      xl: "1500px",
     },
   },
   plugins: [],
