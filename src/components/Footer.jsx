@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/style";
 import { logo } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -33,8 +34,9 @@ const Footer = () => {
                     className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
                       index !== link.links.length - 1 ? "mb-4" : "mb-0"
                     }`}
+                    
                   >
-                    {item.name}
+                    <Link to={`/${item.link}`}>{item.name}</Link>
                   </li>
                 ))}
               </ul>

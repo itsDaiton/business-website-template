@@ -16,7 +16,7 @@ const Navbar = () => {
               i === navLinks.length - 1 ? "mr-0" : "mr-10"
             } text-white mr-10`}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <a href={`/#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
       </ul>
