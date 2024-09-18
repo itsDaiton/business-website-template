@@ -94,11 +94,15 @@ export const footerLinks = [
     links: [
       {
         name: "Terms & Conditions",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "terms",
       },
       {
         name: "Privacy Policy",
-        link: "https://www.hoobank.com/content/",
+        link: "privacy-policy",
+      },
+      {
+        name: "Cookie Policy",
+        link: "cookie-policy",
       },
     ],
   },
