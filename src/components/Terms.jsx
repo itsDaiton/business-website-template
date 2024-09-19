@@ -4,7 +4,7 @@ import styles from "../styles/style";
 const Terms = () => {
   return (
     <section className={`${styles.flexLeft} flex-row flex-wrap sm:mb-20 mb-6`}>
-      <h2 className={styles.heading2}>Website Usage</h2>
+      <h3 className={styles.heading3}>Website Usage</h3>
       <p className={`${styles.paragraph}`}>
         Users who visit the Website can access and read all the content
         contained therein without the need to register data or personal
@@ -17,9 +17,9 @@ const Terms = () => {
         registration or submitted form.
       </p>
 
-      <h2 className={styles.heading2}>
+      <h3 className={styles.heading3}>
         This Website, or any of our services, should not be used:
-      </h2>
+      </h3>
       <ul>
         <li className={`${styles.paragraph}`}>
           - For any reason or purpose that is illegal, defamatory, offensive,
@@ -61,9 +61,9 @@ const Terms = () => {
         disruptive conduct of the User.
       </p>
 
-      <h2 className={styles.heading2}>
+      <h3 className={styles.heading3}>
         Information and Content of this Website
-      </h2>
+      </h3>
       <p className={`${styles.paragraph}`}>
         All content and information published on this website are the
         responsibility of Banana Frog 3D, which ensures their truthfulness and
@@ -87,7 +87,7 @@ const Terms = () => {
         this site, please email directly to bananafrog@bananafrog3d.com.
       </p>
 
-      <h2 className={styles.heading2}>Use of Hyperlinks</h2>
+      <h3 className={styles.heading3}>Use of Hyperlinks</h3>
       <p className={`${styles.paragraph}`}>
         The content of this Website may include Hyperlinks (links) to other
         Sites that are not operated by Banana Frog 3D. Banana Frog 3D is not

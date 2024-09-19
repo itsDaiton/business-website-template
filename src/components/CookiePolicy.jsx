@@ -4,12 +4,12 @@ import styles from "../styles/style";
 const CookiePolicy = () => {
   return (
     <section className={`${styles.flexLeft} flex-row flex-wrap sm:mb-20 mb-6`}>
-      <h2 className={styles.heading2}>Cookie Policy</h2>
+      <h3 className={styles.heading3}>Cookie Policy</h3>
       <p className={`${styles.paragraph}`}>
         This website uses cookies to provide a better user experience to its
         visitors and to ensure that it is fully operational.
       </p>
-      <h2 className={styles.heading2}>What is a cookie?</h2>
+      <h3 className={styles.heading3}>What is a cookie?</h3>
       <p className={`${styles.paragraph}`}>
         In order to provide a personalized and efficient service to our users,
         it is necessary to remember and store information about how this website
@@ -29,7 +29,7 @@ const CookiePolicy = () => {
         our Privacy Statement.
       </p>
 
-      <h2 className={styles.heading2}>Cookies We May Use and Why</h2>
+      <h3 className={styles.heading3}>Cookies We May Use and Why</h3>
       <p className={`${styles.paragraph}`}>
         When we use cookies on our website, we may place them into one of the
         following categories:
@@ -70,9 +70,9 @@ const CookiePolicy = () => {
         </li>
       </ul>
 
-      <h2 className={styles.heading2}>
+      <h3 className={styles.heading3}>
         How Long Do Cookies Stay on My Device?
-      </h2>
+      </h3>
       <p className={`${styles.paragraph}`}>
         The duration that cookies remain on your device depends on whether they
         are "persistent" cookies or "session" cookies. A persistent cookie is
@@ -81,7 +81,7 @@ const CookiePolicy = () => {
         at the end of your web session when the web browser is closed.
       </p>
 
-      <h2 className={styles.heading2}>How to Control Cookies?</h2>
+      <h3 className={styles.heading3}>How to Control Cookies?</h3>
       <p className={`${styles.paragraph}`}>
         You can control and manage cookies in various ways. Please note that
         removing or blocking cookies may affect your user experience and limit
@@ -97,7 +97,7 @@ const CookiePolicy = () => {
         consult the specific privacy and cookie policies of those sites.
       </p>
 
-      <h2 className={styles.heading2}>Email Communications</h2>
+      <h3 className={styles.heading3}>Email Communications</h3>
       <p className={`${styles.paragraph}`}>
         We may also use monitoring technologies to determine if our visitors
         have read, clicked on links, or forwarded certain communications sent by
@@ -110,7 +110,7 @@ const CookiePolicy = () => {
         sent to their email address.
       </p>
 
-      <h2 className={styles.heading2}>Changes to the Cookie Policy</h2>
+      <h3 className={styles.heading3}>Changes to the Cookie Policy</h3>
       <p className={`${styles.paragraph}`}>
         This Cookie Policy may be reviewed at any time at our discretion. When
         changes are made, the review date at the top of the page will be
@@ -119,7 +119,7 @@ const CookiePolicy = () => {
         Cookie Policy to stay informed about our management of cookies.
       </p>
 
-      <h2 className={styles.heading2}>Dispute Resolution</h2>
+      <h3 className={styles.heading3}>Dispute Resolution</h3>
       <p className={`${styles.paragraph}`}>
         Under and in compliance with Law No. 144/2015, of 08.09, Banana Frog 3D
         provides the necessary information for the consumer client to exercise
@@ -200,7 +200,7 @@ const CookiePolicy = () => {
         For more information, visit the Consumer Portal: www.consumidor.pt
       </p>
 
-      <h2 className={styles.heading2}>Complaint Book</h2>
+      <h3 className={styles.heading3}>Complaint Book</h3>
 
       <p className={`${styles.paragraph}`}>
         <a href="https://www.livroreclamacoes.pt/inicio">

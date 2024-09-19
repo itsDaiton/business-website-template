@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
     <section
       className={`${styles.flexLeft} flex-row flex-wrap sm:mb-20 mb-6`}
     >
-      <h2 className={styles.heading2}>Privacy Policy</h2>
+      <h3 className={styles.heading3}>Privacy Policy</h3>
       <p className={`${styles.paragraph}`}>
         Esquilo Tranquilo Lda, which operates commercially as Banana Frog 3D,
         located at Rua Leopoldo de Almeida, 30, 2750-035, Cascais, Cascais e
@@ -32,7 +32,7 @@ const PrivacyPolicy = () => {
         you should not use this Website.
       </p>
 
-      <h2 className={styles.heading2}>Use of the Website</h2>
+      <h3 className={styles.heading3}>Use of the Website</h3>
 
       <p className={`${styles.paragraph}`}>
         Users who visit the Website can access and read all content contained
@@ -79,9 +79,9 @@ const PrivacyPolicy = () => {
         conduct by the User.
       </p>
 
-      <h2 className={styles.heading2}>
+      <h3 className={styles.heading3}>
         Information and Content on this Website
-      </h2>
+      </h3>
 
       <p className={`${styles.paragraph}`}>
         All content and information published on this website are the
@@ -108,7 +108,7 @@ const PrivacyPolicy = () => {
         site, please send an email directly to bananafrog@bananafrog3d.com.
       </p>
 
-      <h2 className={styles.heading2}>Data Registration</h2>
+      <h3 className={styles.heading3}>Data Registration</h3>
 
       <p className={`${styles.paragraph}`}>
         The personal data of each user will be kept as long as the user's
@@ -123,7 +123,7 @@ const PrivacyPolicy = () => {
         should be sent to bananafrog@bananafrog3d.com.
       </p>
 
-      <h2 className={styles.heading2}>Use of Hyperlinks</h2>
+      <h3 className={styles.heading3}>Use of Hyperlinks</h3>
 
       <p className={`${styles.paragraph}`}>
         The content of this Website may include Hyperlinks to other Sites that
@@ -150,7 +150,7 @@ const PrivacyPolicy = () => {
         subsidiaries.
       </p>
 
-      <h2 className={styles.heading2}>Our Responsibility and Contacts</h2>
+      <h3 className={styles.heading3}>Our Responsibility and Contacts</h3>
 
       <p className={`${styles.paragraph}`}>
         Banana Frog 3D is not responsible for direct, indirect, or specific
@@ -230,7 +230,7 @@ const PrivacyPolicy = () => {
         link at the bottom of the email.
       </p>
 
-      <h2 className={styles.heading2}>Data Registration</h2>
+      <h3 className={styles.heading3}>Data Registration</h3>
       <p className={`${styles.paragraph}`}>
         We collect personal information via the voluntary filling out of forms
         provided for scheduling visits, requesting information about properties
@@ -252,7 +252,7 @@ const PrivacyPolicy = () => {
         time of initial data collection.
       </p>
 
-      <h2 className={styles.heading2}>Automatically Collected Data</h2>
+      <h3 className={styles.heading3}>Automatically Collected Data</h3>
       <p className={`${styles.paragraph}`}>
         The domains and IP addresses of visitors are automatically recorded.
         This information does not identify the user but only the computer used
@@ -262,7 +262,7 @@ const PrivacyPolicy = () => {
         collected and analyzed in this process.
       </p>
 
-      <h2 className={styles.heading2}>Data Retention</h2>
+      <h3 className={styles.heading3}>Data Retention</h3>
       <p className={`${styles.paragraph}`}>
         The data will be kept as long as the user's subscription is active, with
         the aim of improving the services offered, and after its expiration,
@@ -271,7 +271,7 @@ const PrivacyPolicy = () => {
         contractual purposes related to the services provided.
       </p>
 
-      <h2 className={styles.heading2}>Access to Personal Data</h2>
+      <h3 className={styles.heading3}>Access to Personal Data</h3>
 
       <p className={`${styles.paragraph}`}>
         To request clarifications about accessing personal data, or to clarify
