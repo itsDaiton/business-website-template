@@ -4,7 +4,7 @@ import styles, { layout } from "../styles/style";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
-    className={`flex flex-row p-6 rounded-[20px] ${
+    className={`flex flex-row ss:p-5 rounded-[20px] ${
       index !== features.length - 1 ? "mb-6" : "mb-0"
     } feature-card`}
   >
@@ -28,17 +28,15 @@ const Business = () => {
   return (
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>
-          Your Design.  <br className="sm:block hidden" />
-          Your Material Choice. <br className="sm:block hidden" />
-          Your Product.
+        <h2 className={`${styles.heading2}`}>
+          Design It.  <br/>
+          Choose Materials. <br/>
+          Own It.
         </h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p className={`${styles.paragraph} md:max-w-[470px] mt-5`}>
         We are technology artists aiming to transform the intangible into tangible reality.
-        </p>
-        <p className={`${styles.paragraph} max-w-[470px]`}>
-          Our mission is to transcend the limits of the imaginable, sculpting your boldest 
-          visions with the flexibility of 3D printing.
+        Our mission is to transcend the limits of the imaginable, sculpting your boldest 
+        visions with the flexibility of 3D printing.
         </p>
       </div>
       <div className={`${layout.sectionImg} flex-col`}>

@@ -10,27 +10,18 @@ const Hero = () => {
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 md:px-16 px-6`}
       >
-        {/* Discounts per order */}
-        <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
-          <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
-          <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">20%</span> Discount on every{" "}
-            <span className="text-white"> 3rd</span> Order
-          </p>
-        </div>
         {/* Main text */}
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            Bringing <br className="md:block hidden" />
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[90px] text-[55px] text-white ss:leading-[120.8px] leading-[75px]">
+            Turning <br className="md:block hidden" />
             <span className="text-gradient">Ideas</span>{" "}
             <br className="md:block hidden" />
-            to <span className="text-gradient">Life</span>
+            Into <span className="text-gradient">Reality</span>
           </h1>
         </div>
-        <p className={`${styles.paragraph} max-w-[500px] mt-5`}>
+        <p className={`${styles.paragraph} md:max-w-[500px] mt-10`}>
           <i>
-            "Great things are not done by impulse, but by a series of small
-            things brought together."
+            "Great things are not done by impulse, but by a series of small things brought together."
           </i>
           <br></br>- Vincent Van Gogh
         </p>

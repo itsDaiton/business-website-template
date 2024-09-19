@@ -14,7 +14,7 @@ const Footer = () => {
             alt="logo"
             className="w-[266px] h-[172px] object-contain logo"
           />
-          <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
+          <p className={`${styles.paragraph} mt-4 md:max-w-[310px]`}>
             A new way to print 3D models. Your way.
           </p>
         </div>
