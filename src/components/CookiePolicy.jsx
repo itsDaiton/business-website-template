@@ -9,6 +9,7 @@ const CookiePolicy = () => {
         This website uses cookies to provide a better user experience to its
         visitors and to ensure that it is fully operational.
       </p>
+
       <h3 className={styles.heading3}>What is a cookie?</h3>
       <p className={`${styles.paragraph}`}>
         In order to provide a personalized and efficient service to our users,
@@ -201,7 +202,6 @@ const CookiePolicy = () => {
       </p>
 
       <h3 className={styles.heading3}>Complaint Book</h3>
-
       <p className={`${styles.paragraph}`}>
         <a href="https://www.livroreclamacoes.pt/inicio">
           {" "}
