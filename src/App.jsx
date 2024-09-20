@@ -13,7 +13,8 @@ import {
   Testimonials,
   PrivacyPolicy,
   CookiePolicy,
-  Terms
+  Terms,
+  Products
 } from "./components";
 import styles from "./styles/style";
 
@@ -50,6 +51,7 @@ const App = () => {
               <Route path="/terms" element={<Terms />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/cookie-policy" element={<CookiePolicy />} />
+              <Route path="/products" element={<Products />} />
             </Routes>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import { peoplerandom, instagram, eco, speed, gear } from "../assets";
+import { peoplerandom, instagram, eco, speed, gear, origamiVase, rasenVase, simpleVase } from "../assets";
 
 export const navLinks = [
   {
@@ -18,6 +18,13 @@ export const navLinks = [
     title: "Clients",
   },
 ];
+
+export const externalLinks = [
+  {
+    id: "products",
+    title: "Products",
+  }
+]
 
 export const features = [
   {
@@ -67,6 +74,33 @@ export const feedback = [
     name: "Maria N.",
     title: "Assistant Professor",
     img: peoplerandom,
+  },
+];
+
+export const products = [
+  {
+    id: "product-1",
+    content:
+      "A simple vase made for your flowers.",
+    name: "Simple Flower Vase",
+    sizes: "L, M, S",
+    img: simpleVase,
+  },
+  {
+    id: "product-2",
+    content:
+      "A touch of modern to your kitchen.",
+    name: "Rasen Vase",
+    sizes: "L, M, S",
+    img: rasenVase,
+  },
+  {
+    id: "product-3",
+    content:
+      "A unique vase with the right touch of modern. ",
+    name: "Origami Vase",
+    sizes: "L, M, S",
+    img: origamiVase,
   },
 ];
 

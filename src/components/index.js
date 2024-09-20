@@ -12,6 +12,7 @@ import Testimonials from "./Testimonials";
 import Terms from "./Terms";
 import PrivacyPolicy from "./PrivacyPolicy";
 import CookiePolicy from "./CookiePolicy";
+import Products from "./Products"
 
 export {
   Materials,
@@ -27,5 +28,6 @@ export {
   Testimonials,
   Terms,
   PrivacyPolicy,
-  CookiePolicy
+  CookiePolicy,
+  Products
 };

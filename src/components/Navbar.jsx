@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { close, logo, menu } from "../assets";
-import { navLinks } from "../constants";
+import { navLinks, externalLinks } from "../constants";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -17,6 +17,16 @@ const Navbar = () => {
             } text-white mr-10`}
           >
             <a href={`/#${nav.id}`}>{nav.title}</a>
+          </li>
+        ))}
+        {externalLinks.map((nav, i) => (
+          <li
+            key={nav.id}
+            className={`font-poppins font-normal cursor-pointer text-[16px] ${
+              i === navLinks.length - 1 ? "mr-0" : "mr-10"
+            } text-white mr-10`}
+          >
+            <a href={`/${nav.id}`}>{nav.title}</a>
           </li>
         ))}
       </ul>
@@ -41,6 +51,16 @@ const Navbar = () => {
                 } text-white mr-10`}
               >
                 <a href={`/#${nav.id}`}>{nav.title}</a>
+              </li>
+            ))}
+            {externalLinks.map((nav, i) => (
+              <li
+                key={nav.id}
+                className={`font-poppins font-normal cursor-pointer text-[16px] ${
+                  i === navLinks.length - 1 ? "mr-0" : "mb-4"
+                } text-white mr-10`}
+              >
+                <a href={`/${nav.id}`}>{nav.title}</a>
               </li>
             ))}
           </ul>
