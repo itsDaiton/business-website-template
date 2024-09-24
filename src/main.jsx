@@ -7,8 +7,9 @@ import './styles/discounts.css'
 import './styles/logo.css'
 import './styles/images.css'
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
 )
