@@ -5,18 +5,6 @@ export const navLinks = [
     id: "home",
     title: "Home",
   },
-  {
-    id: "features",
-    title: "Who we are",
-  },
-  {
-    id: "product",
-    title: "Materials",
-  },
-  {
-    id: "clients",
-    title: "Clients",
-  },
 ];
 
 export const externalLinks = [

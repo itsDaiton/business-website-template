@@ -12,9 +12,9 @@ import discount from "./discount.png";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import peoplerandom from "./peoplerandom.png"
-import simpleVase from "./product_imgs/simple_vase.jpeg";
-import rasenVase from "./product_imgs/rasen_vase.jpeg";
-import origamiVase from "./product_imgs/origami_vase.jpeg";
+import simpleVase from "./product_imgs/simple_vase.png";
+import rasenVase from "./product_imgs/rasen_vase.png";
+import origamiVase from "./product_imgs/origami_vase.png";
 
 export {
   printer,
