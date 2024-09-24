@@ -2,9 +2,9 @@ import React from "react";
 
 const Product = ({ content, name, sizes, img }) => {
   return (
-    <div className="justify-center flex flex-col px-10 sm:py-6 py-3 rounded-[20px] sm:max-w-[370px] md:mr-10 mr-0 my-5 feedback-card">
+    <div className="justify-center flex flex-col px-10 sm:py-6 py-3 rounded-[20px] md:w-[370px] w-[350px] md:mr-10 mr-0 my-5 feedback-card">
       <img src={img} alt={name} className="w-[300px] h-[300px] object-contain" />
-      <div className="flex flex-row h-[50px] my-10">
+      <div className="flex flex-row h-[50px] my-5">
         <div className="flex flex-col">
           <h4 className="font-poppins font-semibold text-[20px] text-white">
             {name}
@@ -14,7 +14,7 @@ const Product = ({ content, name, sizes, img }) => {
           </p>
         </div>
       </div>
-      <p className="font-poppins font-normal text-[18px] leading-[32px] text-white">
+      <p className="font-poppins font-normal text-[18px] md:leading-[32px] text-white md:max-w-[300px]">
         {content}
       </p>
     </div>

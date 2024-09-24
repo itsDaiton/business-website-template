@@ -115,14 +115,17 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
+        id:"footer-link-1",
         name: "Terms & Conditions",
         link: "terms",
       },
       {
+        id:"footer-link-2",
         name: "Privacy Policy",
         link: "privacy-policy",
       },
       {
+        id:"footer-link-3",
         name: "Cookie Policy",
         link: "cookie-policy",
       },
