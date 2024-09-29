@@ -7,61 +7,98 @@ import {
   Clients,
   CTA,
   Footer,
-  Hero,
+  Landing,
   Navbar,
   Stats,
   Testimonials,
   PrivacyPolicy,
   CookiePolicy,
   Terms,
-  Products
+  Products,
 } from "./components";
 import styles from "./styles/style";
+
+// Wrapper component
+const Wrapper = ({ children }) => {
+  return (
+    <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>{children}</div>
+    </div>
+  );
+};
 
 const App = () => {
   return (
     <Router>
       <div className="bg-primary w-full overflow-hidden">
         {/* Header (Navbar) */}
-        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-          <div className={`${styles.boxWidth}`}>
-            <Navbar />
-          </div>
-        </div>
+        <Wrapper>
+          <Navbar />
+        </Wrapper>
 
         {/* Main Content */}
-        <div className={`bg-primary ${styles.flexStart}`}>
-          <div className={`${styles.boxWidth}`}>
-            <Routes>
-              <Route
-                path="/"
-                element={
-                  <>
-                    <Hero />
-                    <Stats />
+        <div className={`bg-primary`}>
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  {/* Full page for Landing */}
+                  <div className={`w-full h-screen`}>
+                    <Landing />
+                  </div>
+                  {/* Wrapper for other components */}
+                  <Wrapper>
+                    {/* <Stats /> */}
                     <Business />
                     <Materials />
                     <Equipment />
                     <Testimonials />
                     <Clients />
                     <CTA />
-                  </>
-                }
-              />
-              <Route path="/terms" element={<Terms />} />
-              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-              <Route path="/cookie-policy" element={<CookiePolicy />} />
-              <Route path="/products" element={<Products />} />
-            </Routes>
-          </div>
+                  </Wrapper>
+                </>
+              }
+            />
+            <Route
+              path="/terms"
+              element={
+                <Wrapper>
+                  <Terms />
+                </Wrapper>
+              }
+            />
+            <Route
+              path="/privacy-policy"
+              element={
+                <Wrapper>
+                  <PrivacyPolicy />
+                </Wrapper>
+              }
+            />
+            <Route
+              path="/cookie-policy"
+              element={
+                <Wrapper>
+                  <CookiePolicy />
+                </Wrapper>
+              }
+            />
+            <Route
+              path="/products"
+              element={
+                <Wrapper>
+                  <Products />
+                </Wrapper>
+              }
+            />
+          </Routes>
         </div>
 
         {/* Footer */}
-        <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-          <div className={`${styles.boxWidth}`}>
-            <Footer />
-          </div>
-        </div>
+        <Wrapper>
+          <Footer />
+        </Wrapper>
       </div>
     </Router>
   );
