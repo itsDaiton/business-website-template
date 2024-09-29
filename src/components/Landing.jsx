@@ -15,7 +15,7 @@ const Landing = () => {
       >
         {/* Main text */}
         <div className="w-full">
-          <h1 className={`font-poppins font-semibold sm:text-[110px] ss:text-[100px] text-[70px] text-white sm:leading-[140px] leading-[100px]`}>
+          <h1 className={`font-poppins font-semibold sm:text-[110px] ss:text-[100px] text-[55px] text-white sm:leading-[140px] ss:leading-[110px] leading-[70px]`}>
             Turning <br className="md:block hidden" />
             <span className="text-gradient">Ideas</span>{" "}
             <br className="md:block hidden" />

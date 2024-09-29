@@ -110,6 +110,11 @@
   filter: blur(100px);
 }
 
+.yellow__gradient {
+  background: linear-gradient(180deg, rgba(233, 141, 4, 0) 60%, #bcc210 100%);
+  filter: blur(100px);
+}
+
 .pink__gradient {
   background: linear-gradient(180deg, #ffbd08 0%, #3823ef 100%);
   filter: blur(150px);
