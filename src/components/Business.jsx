@@ -29,13 +29,15 @@ const Business = () => {
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={`${styles.heading2}`}>
-          Design It.  <br />
-          Make it yours.
+          Who are we?
         </h2>
         <p className={`${styles.paragraph} md:max-w-[470px] mt-5`}>
-        We are technology artists aiming to transform the intangible into tangible reality.
-        Our mission is to transcend the limits of the imaginable, sculpting your boldest 
-        visions with the flexibility of 3D printing.
+          We are a small but passionate Portuguese team of technology artists who believe that creativity knows no bounds. 
+          Our mission is simple: to turn your most ambitious ideas into tangible reality through the magic of 3D printing. 
+        </p>
+        <p className={`${styles.paragraph} md:max-w-[470px] mt-5`}>
+          We don't just print on demand—we actively collaborate with you, guiding your vision every step of the way. 
+          At the heart of everything we do is a deep love for transforming what seems impossible into something real, tangible, and beautiful.
         </p>
       </div>
       <div className="absolute z-[0] w-[60%] h-[40%] -right-[50%] rounded-full yellow__gradient top-160" />

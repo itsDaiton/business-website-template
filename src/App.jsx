@@ -9,7 +9,6 @@ import {
   Footer,
   Landing,
   Navbar,
-  Stats,
   Testimonials,
   PrivacyPolicy,
   CookiePolicy,
