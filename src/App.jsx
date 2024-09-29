@@ -7,7 +7,7 @@ import {
   Clients,
   CTA,
   Footer,
-  Hero,
+  Landing,
   Navbar,
   Stats,
   Testimonials,
@@ -43,9 +43,9 @@ const App = () => {
               path="/"
               element={
                 <>
-                  {/* Full page for Hero */}
+                  {/* Full page for Landing */}
                   <div className={`w-full h-screen`}>
-                    <Hero />
+                    <Landing />
                   </div>
                   {/* Wrapper for other components */}
                   <Wrapper>

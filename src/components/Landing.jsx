@@ -1,7 +1,7 @@
 import styles from "../styles/style";
 import landing_page from "../assets/video/landing_page.mp4";
 
-const Hero = () => {
+const Landing = () => {
   return (
     <section
       id="home"
@@ -33,4 +33,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Landing;
