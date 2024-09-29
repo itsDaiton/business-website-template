@@ -1,4 +1,4 @@
-import printer from "./printer.webp";
+import printer from "./video/printer.mp4";
 import logo from "./logo.png";
 import quotes from "./quotes.svg";
 import dragon from "./dragon-img.png";

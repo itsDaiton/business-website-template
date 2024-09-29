@@ -127,13 +127,10 @@
   overflow: hidden;
 }
 
-.printer-container img {
+.printer-container video {
   width: 100%;
   height: auto;
-  border-radius: 20px;
-  mask-image: radial-gradient(circle, rgb(202, 202, 202) 40%, transparent 98%);
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2),
-    0px 0px 15px rgba(19, 112, 166, 0.5);
+  opacity: 0.6;
 }
 
 .small-text {
