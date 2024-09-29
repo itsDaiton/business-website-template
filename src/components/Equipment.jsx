@@ -17,7 +17,7 @@ const Equipment = () => {
         </p>
       </div>
       <div className={layout.sectionImg}>
-        <img src={printer} alt="card" className="w-[100%] h-[100%]" />
+        <video src={printer} autoPlay muted loop alt="3dprinter" className="w-[100%] h-[100%]"/>
       </div>
     </section>
   );
