@@ -53,6 +53,7 @@ const Navbar = () => {
                 <a href={`/#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
+            <li className={`mt-2`}></li>
             {externalLinks.map((nav, i) => (
               <li
                 key={nav.id}
