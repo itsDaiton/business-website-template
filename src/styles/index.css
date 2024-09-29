@@ -141,6 +141,10 @@
   padding-right: 10pt;
 }
 
+.nav-style {
+  height: 8vh;
+}
+
 @-webkit-keyframes slide-top {
   0% {
     -webkit-transform: translateY(100px);
