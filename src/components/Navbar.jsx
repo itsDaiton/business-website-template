@@ -7,7 +7,10 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex nav-style justify-between items-center navbar">
-      <img src={logo} alt="bananafrog" className="w-[40px] h-[40px] logo" />
+      <div className="flex">
+        <img src={logo} alt="bananafrog" className="w-[40px] h-[40px] logo" />
+        <a className="text-white font-poppins ml-5 mt-2">BananaFrog3D</a>
+      </div>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, i) => (
           <li
