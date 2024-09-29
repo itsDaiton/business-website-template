@@ -29,9 +29,8 @@ const Business = () => {
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={`${styles.heading2}`}>
-          Design It.  <br/>
-          Choose Materials. <br/>
-          Own It.
+          Design It.  <br />
+          Make it yours.
         </h2>
         <p className={`${styles.paragraph} md:max-w-[470px] mt-5`}>
         We are technology artists aiming to transform the intangible into tangible reality.
