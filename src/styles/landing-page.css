@@ -5,14 +5,14 @@
 
 .landing-wrapper {
     width: 100%;
-    height: 100vh;
-    background: radial-gradient(transparent 50%, rgba(1,4,15,255));
+    height: 92vh;
+    background: radial-gradient(transparent 70%, rgba(1,4,15,255));
 }
 
 .video-style {
     width: 100%;
     max-width: 100%;
-    height: 100vh;
+    height: 92vh;
     object-fit: cover;
     opacity: 0.2;
 }
