@@ -21,7 +21,7 @@ import styles from "./styles/style";
 // Wrapper component
 const Wrapper = ({ children }) => {
   return (
-    <div className={`bg-primary ${styles.flexStart}`}>
+    <div className={`bg-dark ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>{children}</div>
     </div>
   );

@@ -38,6 +38,7 @@ const Business = () => {
         visions with the flexibility of 3D printing.
         </p>
       </div>
+      <div className="absolute z-[0] w-[60%] h-[40%] -right-[50%] rounded-full yellow__gradient top-160" />
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index} />
